@@ -1,17 +1,4 @@
-# keep-alive record
-
-  作用： 为了缓存输入，类属于vue的keep-alive
-
-  原理：
-
-
-# 附加：
-
-## useContext： 
-  应用场景：当需要在组件之间共享状态(state)
-
-```js
-
+import React, { useContext, useEffect, useState } from 'react'
 
 const TestContext = React.createContext({});
 
@@ -48,5 +35,3 @@ export default function UseContextTest() {
     </TestContext.Provider>
   )
 }
-  
-```
